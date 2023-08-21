@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post("/sign", (req, res) => {
-  const email = "dener@vidafullstack.com.br";
-  const password = "123";
+  const email = "pedroarneiroz@gmail.com";
+  const password = "12345678";
 
   if (req.body.email === email && req.body.password === password) {
     const data = {
